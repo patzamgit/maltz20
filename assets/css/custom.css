@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+.menu__logo-img{
+	width: 225px;
+}
+.menu__logo-img-mark{
+	width: 45px;
+}
+.menu .menu__logo-img-mark{
+	display: none;
+}
+.menu--active .menu__logo-img-mark{
+	display: block;
+} 
+.menu--active .menu__logo-img{
+	display: none;
+}
+.main-container{
+	width: 95%;
+	margin: auto;
+}
+.header-home__btns{
+	margin-bottom: 70px;
+}
+.bg-light{
+	background-color: #eff6ff ;
+}
+.back-video{
+	margin-top: 100px;
+	width: 90%;
+}
+.section--light-white{
+	background-color: #fafcff ;
+	padding-top: 128px;
+}
+.section .section__description{
+	font-size: 18px;
+}
+.pt-50{
+	padding-top:50px ;
+}
+.pt-150{
+	padding-top:150px ;
+}
+.mt-50{
+	margin-top:50px ;
+}
+.pricing__card-title{
+	font-weight: bold;
+}
+.bold{
+	font-weight: bold;
+}
+.text-accent{
+	color: #8E1729;
+}
+.center{
+	text-align: center;
+}
+.site-table__head-th p{
+	font-weight:
+}
+.section--white{
+	background-color: white;
+	padding-bottom: 0px !important;
+}
+.footer{
+
+	text-align: left !important;
+}
+.about-index{
+	width: 48px;
+	height: 48px;
+	background-color: #BFD1E9;
+	border-radius: 24px;
+
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;	
+	margin-top: 10px;
+}
+.about-index-text{
+	font-size: 30px;
+	color:#eff6ff;
+	font-weight: bold;
+	line-height: normal;
+	
+}
+.header-home .header-home__description{
+	list-style: disc;
+
+}
+.about-app{
+	/*margin-left: 5%;*/
+}
+.about-app--reverse{
+	/*margin-left: -10%;*/
+}
+.about-app__link{
+	text-decoration: underline;
+    transition: all .3s;
+    color: #7d93b2;
+
+}
+.flex{
+	display: flex;
+} 
+.flex-direction-row{
+	flex-direction: row;
+	width: 100%;
+}
+.flex-align-center{
+	align-content:  center;
+	justify-content: flex-end;
+	margin: auto;
+    margin-right: 100px;
+}
+.flex-left{
+	margin-right: 30px;
+}
+.site-btn.site-btn--accent.header-home__btn{
+	margin-bottom: 20px;
+}
+.site-table__th.tablesaw-swipe-cellpersist{
+	text-decoration: underline;
+}
+.site-table__td img{
+	width:2.5vw;
+	max-width: 25px;
+	min-width: 20px;
+}
+.top-back{
+	max-width:610px;
+	min-width:610px;
+    box-shadow:0 20px 30px rgba(125,147,178,.3);
+}
+.top-video{
+	position: absolute;
+	width: 609px;
+	top: 33px;
+}
+.top-phone{
+	position: absolute; 
+	width: 200px;
+	top: 20%;
+    margin-left: 110px;
+    filter:drop-shadow(5px 5px 10px  #00000020);
+    right: 0.1px;
+}
+.site-table .site-table__th a{
+	color: #7d93b2;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+#desktop_copyright{
+	display: block;
+}
+#mobile_copyright{
+	display: none;
+}
+.pricing__card.card .price-plan_monthly{
+	display: initial;
+}
+.pricing__card.card .price-plan_yearly{
+	display: none;
+}
+.pricing__card.card.pricing__card--year .price-plan_monthly{
+	display: none;
+}
+.pricing__card.card.pricing__card--year .price-plan_yearly{
+	display: initial;
+}
+@media (max-width: 1580px) {
+	
+	.flex-align-center{
+		margin-bottom: inherit;
+	}
+
+}
+@media (max-width: 1400px) {
+	.site-table .site-table__th a {
+		font-size: 16px !important; 	
+	}.header-home__title{
+		font-size: 36px;
+	}
+	.top-back{
+		max-width:510px;
+		min-width:510px;
+	}
+	.top-video{
+		position: absolute;
+		width: 509px;
+    	top: 69px;
+	}
+
+	.top-phone{
+		position: absolute; 
+		width: 170px;
+    	top: 23%;
+	    margin-left: 130px;
+	}
+	.header-home .header-home__btns{
+    	margin-bottom: 30px;
+	}
+}
+@media (max-width: 1260px) {
+	
+	.flex-left{
+		margin-right: 0px;
+	}
+	.main-container{
+		/*width: 95%;*/
+	}
+	
+}@media (max-width: 1144px) {
+	
+	.top-back{
+		max-width:450px;
+		min-width:450px;
+	}
+	.top-video{
+		position: absolute;
+		width: 449px;
+    	top: 114px;
+	}
+
+	.top-phone{
+		position: absolute; 
+		width: 130px;
+    	top: 40%;
+	    margin-left: 10px;
+	}
+	.header-home .header-home__btns{
+    	margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.flex.flex-direction-row.flex-align-center{
+		display: none;
+	}
+	.tablesaw-swipe-cellpersist{
+		font-size: 12px !important;
+		padding-right: 30px !important;
+	}
+	.site-table .site-table__head-th {
+    	letter-spacing: -1px;	
+	}
+	.site-table__td{
+    	font-size: 14px;
+	}
+}
+@media (max-width: 768px) {
+
+	
+	#mobile_copyright{
+		display: block;
+	}
+	#desktop_copyright{
+		display: none;
+	}
+	.about-index{
+	    margin: auto;
+	}
+	.about-app{
+		margin-left: 0%;
+	}
+
+	.about-app--reverse{
+		margin-left: 0%;
+	}
+	.site-table__td{
+    	font-size: 12px !important;
+	}
+}
